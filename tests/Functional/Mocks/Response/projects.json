@@ -1,0 +1,128 @@
+{
+  "records": [
+    {
+      "id": "recVXwCfLXpuim6US",
+      "createdTime": "2025-03-14T22:51:54.000Z",
+      "fields": {
+        "Name": "Microservices",
+        "Description": "Pas de description.\n",
+        "Created at": "2025-03-14T22:51:54.000Z",
+        "Last modified at": "2025-03-19T22:38:27.000Z",
+        "Id": 2,
+        "Students": [
+          "rec7zsE50vIyv0QwL",
+          "recT2CKoQlPraEb8O"
+        ],
+        "Likes": [
+          "rec94InrjBlyRLoZ6",
+          "recQGv5dll9VkiuUD"
+        ],
+        "Link": "https://microservices.io/",
+        "Promotion": [
+          "recW4K69I6rvCyFO6"
+        ],
+        "Categories": [
+          "rec06mcr7MUanojrq",
+          "rec89rrGl8eBRX87J"
+        ],
+        "Categories [Name]": [
+          "Software",
+          "Web"
+        ],
+        "Promotion [Name]": [
+          "5A"
+        ],
+        "Students [Full Name]": [
+          "Melvin PIERRE",
+          "Anonymous ANONYMOUS"
+        ],
+        "Likes->Count": 2,
+        "TEST": "test"
+      }
+    },
+    {
+      "id": "reczRWnXnpYEtO7JL",
+      "createdTime": "2025-03-14T13:39:31.000Z",
+      "fields": {
+        "Name": "Airtable S3",
+        "Description": "## **Technologies**\nLa base de données devra être faite via Airtable.\nVous devrez donc communiquer avec l'API de Airtable.\nL'interface administrateur ainsi que le portfolio pourront être développés sur les technos de votre choix.\n### **Portfolio développé**\nVous allez développer un portfolio pour présenter les projets étudiants.\nIl doit être possible de :\n- voir la liste des projets publiés,\n- voir le détail d'un projet avec ses informations associées,\n- liker un projet\n- rechercher un projet via mots clés.\n### **Interface administrateur développée**\nVous allez créer une interface pour gérer les projets.\nIl doit être possible via l'interface administrateur de :\n- créer un nouveau projet (nom, description, technos, lien vers le projet en ligne si existant, visuels, promotion, étudiants, catégorisation),\n- modifier un projet existant (toutes les données),\n- cacher un projet du portfolio (ne pas supprimer les données),\n- commenter un projet (visibles uniquement par les administrateurs),\n- rechercher un projet via mots clés,\n- voir un projet en détail, avec ses informations et nombre de likes,\n- visualiser sur un dashboard le nombre de projets, de likes, la répartition des projets par catégorie ou toute autre statistique pertinente.\n",
+        "Created at": "2025-03-14T13:39:31.000Z",
+        "Last modified at": "2025-03-19T22:38:27.000Z",
+        "Technologies": [
+          "recLpuebpCCViymNW",
+          "recA2TBDftzGqW1xW",
+          "recBBphipavKmmVAA"
+        ],
+        "Admin comments": [
+          "recNMran6md1nOlVy",
+          "recGCZbsW98xfNJ0S"
+        ],
+        "Id": 1,
+        "Students": [
+          "recJRJxKQ8SZLXvnE",
+          "rec7zsE50vIyv0QwL"
+        ],
+        "Likes": [
+          "recJv0O1Sgtj3YIc5"
+        ],
+        "Link": "https://github.com/ESGI-M2/Airtable/",
+        "Is published": true,
+        "Promotion": [
+          "recW4K69I6rvCyFO6"
+        ],
+        "Medias": [
+          {
+            "id": "attzkgIwINbU6kwfL",
+            "width": 500,
+            "height": 500,
+            "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743213600000/iJSzvBzR3zTqTKsTHAc8sQ/KDnnKvHjpmkhHjV2RYaUBjH-Jxo8Abf1-zGfuSzLdPJ3Bo6W6_CPOUL_nJUTmvCrGwX2mg2kl8X62cOV_Znux51scI9pX9hYbkfCvhTMQHxLHZ_NYG4IZQfh0K9fL8VFbjH5Fx_fltxrdxT1KLC8SIdi0jhWt77lvWNRbgrTpMc/gDoco75GkFogYVAReUy9NmswJ2PnsQgDTJFWQqpNcVo",
+            "filename": "airtable-logo-1.png",
+            "size": 32525,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743213600000/BUIQqorrcQll_sXKk8d0Jg/8OmWEK2QiqbAJgUYkdM55Plr6g0DQaOD2bVm9ymZr6JVdzW0aQAhEEyXZLSSmjmQ2glWYbe8JbjGNx_ABCGoxLXMwt4u2STsFhCNftFkEZxVtcGiHxX31akB87sW-F6gzGcVFa8ekDO52A85AeguTw/hl4IMD4ToSoBul8G_JERUtjJYnrAJuuuUHb0UmSYFMg",
+                "width": 36,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743213600000/bYvXHlO0_U9LYG9NXBSEng/NHW1fQ3aTEKQ8acIK_PlLcpBL5YxMv4WXEPlCUcE6edAcmwl1IPW8VXN9w1IeYVT9rj-N68dWmj3d52GQdoEXRxGrNiuyUXd6BBDr_O0fBNZOchfq7RqrBFvKRZ2jCWtBZ86u0Hpx02yaW3bW2F6Rw/2kA-AGeoqFoEsHDH3EJ0J_DRg-64rGAjHFHbzD7VuMI",
+                "width": 500,
+                "height": 500
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/39/39/1743213600000/-ZHSdSfEe0zdMG_Kx2nOnA/gpFsiLLZF8kNnnaLZP69foEQI9Q9BUUw4xyzTsABLeY5GFEGppchllIym-Qqs6qI50WC5xeZBejOHqkf4mNSjTcVggN-Undb73l-fOcZQtcjyO5PNoMNPab8aD0VWxGwFhBG8JEEID1AYVugFocTPg/IYMAdJZ2v5OoVZKNND5s2CcRNv6-Wi1OGriSeUCZ_P4",
+                "width": 500,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "Categories": [
+          "rec89rrGl8eBRX87J"
+        ],
+        "Admin Comments [Content]": [
+          "Bon projet...",
+          "Hmmm...."
+        ],
+        "Categories [Name]": [
+          "Web"
+        ],
+        "Promotion [Name]": [
+          "5A"
+        ],
+        "Students [Full Name]": [
+          "Johan Mickaël RAKOTONIAINA",
+          "Melvin PIERRE"
+        ],
+        "Technologies [Name]": [
+          "Airtable",
+          "Symfony",
+          "JavaScript"
+        ],
+        "Likes->Count": 1,
+        "TEST": "test"
+      }
+    }
+  ]
+}

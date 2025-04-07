@@ -1,0 +1,21 @@
+{
+    "name": "johan-mickael/airtable-php-orm",
+    "description": "A simple Airtable ORM for Symfony",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Airtable\\ORM\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Airtable\\ORM\\Tests\\": "tests/"
+        }
+    }
+}
