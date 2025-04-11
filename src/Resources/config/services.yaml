@@ -1,0 +1,5 @@
+services:
+  Airtable\ORM\Client\AirtableClient:
+    arguments:
+      $apiKey: '%airtable.api_key%'
+      $baseId: '%airtable.base_id%'
