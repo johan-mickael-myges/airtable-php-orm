@@ -1,9 +1,9 @@
 {
     "name": "johan-mickael/airtable-php-orm",
-    "description": "A simple Airtable ORM for Symfony",
+    "description": "Airtable ORM bundle for Symfony",
     "type": "library",
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "symfony/http-client": "7.2.4"
     },
     "require-dev": {
