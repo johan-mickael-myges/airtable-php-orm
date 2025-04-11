@@ -1,5 +1,15 @@
+parameters:
+  airtable.base_url: '%env(AIRTABLE_BASE_URL)%'
+  airtable.api_key: '%env(AIRTABLE_API_KEY)%'
+  airtable.base_id: '%env(AIRTABLE_BASE_ID)%'
+
 services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    
   Airtable\ORM\Client\AirtableClient:
     arguments:
+      $baseUrl: '%airtable.base_url%'
       $apiKey: '%airtable.api_key%'
       $baseId: '%airtable.base_id%'

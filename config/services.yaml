@@ -1,7 +1,3 @@
-parameters:
-  airtable.api_key: '%env(AIRTABLE_API_KEY)%'
-  airtable.base_id: '%env(AIRTABLE_BASE_ID)%'
-  
 services:
   _defaults:
     autowire: true
@@ -9,9 +5,3 @@ services:
   
   Airtable\ORM\:
     resource: '../src/'
-    
-  Airtable\ORM\Client\AirtableApiClient:
-    arguments:
-      $baseUrl: '%airtable.base_url%'
-      $apiKey: '%airtable.api_key%'
-      $baseId: '%airtable.base_id%'
